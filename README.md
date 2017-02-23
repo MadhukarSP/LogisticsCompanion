@@ -1,5 +1,5 @@
 # LogisticsCompanion
-Helper react-native app from Klarx for supporting Logistics operations
+A react-native app from Klarx for supporting Logistics operations
 
 ## Prerequisites
 * Nodejs (latest version).
