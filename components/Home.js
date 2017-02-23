@@ -16,17 +16,8 @@ export default class extends React.Component {
     return (  
       <View style={styles.container}>
         <ScrollView style={styles.scrollView}>
-          <Text>Maddy</Text>
-          <Text>Maddy</Text>
-          <Text>Maddy</Text>
-          <Text>Maddy</Text>
-          <Text>Maddy</Text>
-          <Text>ahsdfhjgadhjfffsfddddddddddddddddddddddddddddddddddddddddddddddd</Text>
-        </ScrollView>   
-        <ListView 
-          dataSource={this.state.dataSource}
-          renderRow={this.renderRow.bind(this)}
-        />
+          <Text style={[styles.text, styles.viewPort]}>Welcome to Klarx Logistics Companion app</Text>
+        </ScrollView>
       </View> 
     );
   }
@@ -44,7 +35,7 @@ var styles = StyleSheet.create({
     justifyContent: "center",
     paddingTop: 50,
     alignItems: "center",
-    backgroundColor: "#ffffff",
+    backgroundColor: "#ffffff"
   }, 
   scrollView: {
     flex:1
@@ -58,12 +49,15 @@ var styles = StyleSheet.create({
     backgroundColor: '#527FE4',
     padding: 5,
   },
+  viewPort: {
+    justifyContent: "center",
+    paddingTop: 50,
+    alignItems: "center",
+    backgroundColor: "#ffffff"
+  },
   text: {
-    fontSize: 20,
-    color: '#888888',
-    left: 80,
-    top: 20,
-    height: 40,
+    fontSize: 50,
+    color: '#888888'
   },
   button: {
     margin: 7,
@@ -84,6 +78,3 @@ var styles = StyleSheet.create({
 });
 
 
-//<TouchableHighlight underlayColor="#dddddd" style={{height:44}}
-//      <View>
-//        <Text

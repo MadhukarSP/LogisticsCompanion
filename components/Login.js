@@ -28,12 +28,9 @@ export default class extends React.Component {
         const data = this.props.data || 'No Data';
         return (
             <View style={[styles.container]}>
-                <Text>Login page 1</Text>
-                <Text>Title: {title}</Text>
-                <Text>Data: {data}</Text>
                 <Button 
                     onPress={() => Actions.home()}
-                    title="Login screen button" 
+                    title="Login"
                     color="#841584"/>
             </View>
         );
