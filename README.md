@@ -2,6 +2,7 @@
 Helper react-native app from Klarx for supporting Logistics operations
 
 ## Prerequisites
+* reactjs (latest version).
 * Nodejs (latest version).
 * Python (latest version and add it to path).
 * React Native command line interface.
